@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wave {
+	position: absolute;
+	top: 0px;
+	background: linear-gradient(to right,rgba(21,125,215,0.2),#159dd7);
+	width: 100%;
+	min-height: 300px;
+}
+.wave:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 230px;
+	background: url(images/wave.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+

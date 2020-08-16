@@ -1,0 +1,234 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.boxx{
+	background-color: rgb(21,157,215);
+	position: relative;
+	top: 110px;
+	width: 100%;
+	height: 100vh;
+	z-index: -1;
+}
+
+::-webkit-scrollbar {
+			display: none;
+			cursor: none;
+}
+
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(255,165,0,0.7);
+	position: fixed;
+}
+
+.leftmenu{
+	width: 25%;
+	line-height: 50px;
+	float: left;
+	/*z-index: -1;
+	background-color: yellow;*/
+}
+
+/*.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}*/
+
+.rightmenu{
+	width: 75%;
+	height: 50px;
+	float: left;
+	/*background-color: red;*/
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+.rightmenu ul li{
+	font-family: 'lato';
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+
+.options {
+	color: black;
+	text-decoration: none;
+}
+
+.options:hover {
+	color: white;
+}
+
+#lastlist {
+	background-color: rgb(21,157,215);
+	padding-right: 20px;
+	padding-left: 20px;
+	float: right;
+	margin-right: 100px;
+}
+
+.boxone {
+	width: 100%;
+	height: 93vh;
+	background-color:  #161e2b;
+	position: absolute;
+	top:50px;
+	z-index: -1;
+}
+
+.board{
+	position: relative;
+	width: 250px;
+	height: 130px;
+	margin-left: 22%;
+	margin-top: 10%;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 4px solid white;
+	border-radius: 10%;
+	transition-duration: 0.5s;
+}
+
+.board:hover , .board p:hover{
+	opacity: 0.8;
+}
+	
+.blur{
+	background-color: rgba(0,0,0,0.5);
+	background-size: 300px 150px;
+	position: relative;
+	width: 280px;
+	height: 160px;
+	left: -19px;
+	top: -19px;
+	z-index: -1;
+	border-radius: 10%;
+}
+
+.board p{
+	position: relative;
+	top:15px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'lato';
+}
+
+.sublist{
+	background-color: #161e2c;
+	width: 100%;
+	height: 50px;
+	float: left;
+	/*background-color: red;*/
+}
+
+.sublistul{
+	margin-left: 450px;
+}
+
+.sublistli{
+	display: inline-block;
+	list-style: none;
+	}
+
+.butone{
+	font-family: 'lato';
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	margin-left: 40px;
+	text-transform: uppercase;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+	text-decoration: none;
+}
+
+.butone:hover{
+	color: orange;
+}
+
+.buttwo{
+	font-family: 'lato';
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	margin-left: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #4CAF50;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+	padding: 10px 32px;
+	cursor: pointer; transition-duration:0.4s; 
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 10px;
+}
+
+.butthree{
+	font-family: 'lato';
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: blue;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+}
+
+.butthree:hover{
+	color: orange;
+}
+
+.tone{
+	border-collapse: collapse;
+    width: 80%;
+    position: relative;
+    top: -60px;
+    left: 10%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.thone, .tdone {
+    text-align: center;
+    padding: 8px;
+    font-family: 'lato';
+}
+
+.trone {
+	background-color: orange;
+}
+
+.trone:nth-child(even){background-color: #f2f2f2}
+
+.thone {
+    background-color: #161e2c;
+    color: white;
+}
